@@ -1,0 +1,72 @@
+body {
+    padding: 0%;
+    margin: 0;
+}
+
+.First-Image{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    background-color: red;
+    z-index: 3;
+}
+.Div-1-Slider{  
+  float: right;
+  right: 100%;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  
+}
+.First-Image:hover .Div-1-Slider{
+    width: 20%;
+    right: 100%;
+}
+
+.Second-Image{
+    position: absolute;
+    right: 0;
+    height: 500px;
+    width: 0;
+    background-color: blue;
+    z-index: 2;
+}
+.Div-2-Slider{  
+    float: right;
+    right: 100%;
+    background-color: grey;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+.Second-Image:hover .Div-2-Slider{
+    width: 20%;
+    right: 100%;
+}
+
+
+.Third-Image{
+    position: absolute;
+    right: 0;
+    height: 500px;
+    width: 0;
+    background-color: pink;
+    z-index: 1;
+}
+
+.Div-3-Slider{  
+  float: right;
+  right: 100%;
+  background-color: green;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.Third-Image:hover .Div-3-Slider{
+    width: 20%;
+    right: 100%;
+} */ 
