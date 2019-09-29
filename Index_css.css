@@ -7,7 +7,9 @@ body {
     position: absolute;
     height: 500px;
     width: 100%;
-    background-color: red;
+    background-image: url('20180727184311_1.jpg');
+    background-size: cover;
+    background-position: center;
     z-index: 3;
 }
 .Div-1-Slider{  
@@ -18,7 +20,7 @@ body {
   width: 0;
   height: 100%;
   transition: .5s ease;
-  
+  opacity: 0.5;
 }
 .First-Image:hover .Div-1-Slider{
     width: 20%;
@@ -30,7 +32,9 @@ body {
     right: 0;
     height: 500px;
     width: 0;
-    background-color: blue;
+    background-image: url('20190922140730_1.jpg');
+    background-size: cover;
+    background-position: center;
     z-index: 2;
 }
 .Div-2-Slider{  
@@ -41,6 +45,7 @@ body {
     width: 0;
     height: 100%;
     transition: .5s ease;
+    opacity: 0.5;
   }
 .Second-Image:hover .Div-2-Slider{
     width: 20%;
@@ -54,6 +59,9 @@ body {
     height: 500px;
     width: 0;
     background-color: pink;
+    background-image: url('20190922142546_1.jpg');
+    background-position: center;
+    background-size: cover;
     z-index: 1;
 }
 
@@ -65,8 +73,22 @@ body {
   width: 0;
   height: 100%;
   transition: .5s ease;
+  opacity: 0.5;
 }
 .Third-Image:hover .Div-3-Slider{
     width: 20%;
     right: 100%;
-} */ 
+}
+
+.Top-Slider{
+    overflow: hidden;
+}
+
+.Main-Div{
+    margin-top:500px;
+    
+    display: block;
+    width: 100%;
+    height:600px;
+    background-color: blue;
+}
