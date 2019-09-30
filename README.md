@@ -1,2 +1,2 @@
 # CinemaWeb
-Click <b>[here](https://www.google.com)</b> to view "CinemaWeb" project.
+Click <b>[here](https://felekswebs.github.io/CinemaWeb/)</b> to view "CinemaWeb" project.
