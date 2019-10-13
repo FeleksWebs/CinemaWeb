@@ -1,0 +1,291 @@
+/*Make website look like this https://www.w3schools.com/w3css/w3css_templates.asp  */
+
+body {
+    padding: 0%;
+    margin: 0;
+}
+
+.Top-Slider{
+    overflow: hidden;
+}
+.black-border{
+    height: 50px;
+    display: block;
+    position: relative;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    white-space: nowrap; 
+}
+.Header{
+    margin-top: 500px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+.icon-right1{
+display: absolute;
+float: left;
+height: 50px;
+width: 50px;
+background-color: red;
+margin-left: 20px;
+}
+
+.Header h2 {
+    position: relative;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.order-now{
+    display: block;
+    width: 150px;
+    height: 50px; 
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap; 
+    cursor: pointer;
+    background: blue;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.Div-Slider1, .Div-Slider2, .Div-Slider3{  
+    display: none;
+    margin-left: auto;
+    margin-top: 100px;
+    color: white;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    display: none;
+    transition: .5s ease;
+  }
+.First-Image:hover > .Div-Slider1{
+    display: block;
+    transition: .5s ease;
+    width: 300px;
+}
+
+.Second-Image:hover > .Div-Slider2{
+    display: block;
+    transition: .5s ease;
+    width: 300px;
+}
+
+.Third-Image:hover > .Div-Slider3{
+    display: block;
+    transition: .5s ease;
+    width: 300px;
+}
+
+.order-now:hover{
+    background-color: grey;
+}
+
+
+.First-Image{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    background-image: url('image1.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 3;
+}
+
+
+.Second-Image{
+    position: absolute;
+    right: 0;
+    height: 500px;
+    width: 0;
+    background-image: url('image2.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+
+
+.Third-Image{
+    position: absolute;
+    right: 0;
+    height: 500px;
+    width: 0;
+    background-color: pink;
+    background-image: url('image3.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+
+.Main-Div{
+    margin-top:500px;
+    display: block;
+    width: 100%;
+    height:600px;
+    background-color: blue;
+}
+
+.body-div{
+    display: flex;
+    background-color: #ebe6e3;
+    width: 100%;
+    height: 2800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-div-left{
+    float: left;
+    display: block;
+    background-color:white;
+    width: 60%;
+    height: 2600px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left-div p, h2{
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.left-div{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 800px;
+    background-color: black;
+    margin-top: 50px;
+}
+.img-left-1{
+    position: relative;
+    display: block;
+    height: 500px;
+    width: 100%;
+    z-index: 6;
+    background-color: gray;
+    
+}
+
+.body-div-right{
+    float: left;
+    display: block;
+    width: 400px;
+    height: 1000px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    
+}
+
+.right-ul-1{
+    position: relative;
+    height: auto;
+    padding: 0;
+    align-items:center;
+    flex-direction:column;
+    display:flex;
+    margin-top: 0;
+}
+
+.right-ul{
+    position: relative;
+    margin-top: 25px;
+    height: auto;
+    padding: 0;
+    align-items:center;
+    flex-direction:column;
+    display:flex;
+}
+.right-li-Main{
+    height: 50px;
+    width: 100%;
+    list-style-type:none;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.right-ul-li{
+    margin-bottom:2px;
+    width: 100%;
+    height: auto;
+    list-style-type:none;
+    background-color: white;
+    text-align: center;
+}
+.right-ul-li:hover{
+    background-color: gray;
+}
+
+.right-ul-li p{
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right-ul-li input{
+    width: 300px;
+    height: 30px;
+}
+
+.right-ul-li button{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.social-media-icons{
+    display: flex;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Put display flex into div when putitng in images*/
+.add-here{
+    display: block;
+    width: auto;
+    height: 200px;
+    background-color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 1180px){
+    .body-div{
+        flex-direction: column;
+    }
+    .body-div-left{
+        width: 90%;
+    }
+    .body-div-right{
+        width: 90%;
+    }
+    .right-ul{
+        margin-top: 100px;
+    }
+}
